@@ -7,9 +7,9 @@
             "label": "Build",
             "type": "shell",
             "windows": {
-                "command": ".\\Build.cmd",
+                "command": ".\\scripts\\Build.cmd",
                 "args": [
-                    "16f84" // Update this to Chip you're targeting.
+                    "18f4550" // Update this to Chip you're targeting.
                 ]
             }
         },
@@ -17,9 +17,9 @@
             "label": "Build Samples",
             "type": "shell",
             "windows": {
-                "command": ".\\Build-Samples",
+                "command": ".\\scripts\\Build-Samples",
                 "args": [
-                    "16f84" // Update this to Chip you're targeting.
+                    "18f4550" // Update this to Chip you're targeting.
                 ]
             }
         }

@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "xc.h": "c",
-        "htc.h": "c"
+        "htc.h": "c",
+        "pic18f4550.h": "c"
     }
 }

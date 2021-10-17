@@ -1,9 +1,9 @@
 /*
- * Led Blink example on PIC16F84A.
+ * Led Blink example on PIC18F4550.
  *
  */
 #include <xc.h>
-#include <pic16f84a.h>
+#include <pic18f4550.h>
 
 #define _XTAL_FREQ 1000000 // 1Mhz
 
@@ -12,9 +12,9 @@ void main() {
     TRISB = 0x00;
 
     while(1) {
-        PORTB = 0x01;
+        LATB = 0x01;
         __delay_ms(250);
-        PORTB = 0x00;
+        LATB = 0x00;
         __delay_ms(250);
     }
 

@@ -14,42 +14,47 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
             },
-            "macFrameworkPath": [
-
-            ]
+            "macFrameworkPath": [],
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
         },
         {
             "name": "Linux",
             "includePath": [],
             "defines": [],
-            "intelliSenseMode": "clang-x64",
+            "intelliSenseMode": "windows-msvc-x64",
             "browse": {
                 "path": [],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
         },
         {
             "name": "Windows",
             "includePath": [
                 "${workspaceFolder}",
-                "C:/Program Files (x86)/Microchip/xc8/v1.45/include/*",
-                "C:/Program Files (x86)/Microchip/xc8/v1.45/include/legacy/*"
+                "D:/Programs/Microship/xc8/include/*",
+                "D:/Programs/Microship/xc8/include/legacy/*"
             ],
             "defines": [],
-            "intelliSenseMode": "clang-x64",
+            "intelliSenseMode": "windows-msvc-x64",
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "C:/Program Files (x86)/Microchip/xc8/v1.45/include/*",
-                    "C:/Program Files (x86)/Microchip/xc8/v1.45/include/legacy/*"
+                    "D:/Programs/Microship/xc8/include/*",
+                    "D:/Programs/Microship/xc8/include/legacy/*"
                 ],
                 "databaseFilename": "",
                 "limitSymbolsToIncludedHeaders": true
             },
             "cStandard": "c89",
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe"
         }
     ],
-    "version": 3
+    "version": 4
 }
